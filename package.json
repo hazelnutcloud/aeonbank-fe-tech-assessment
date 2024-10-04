@@ -1,0 +1,14 @@
+{
+  "name": "aeonbank-fe-tech-assessment",
+  "private": true,
+  "workspaces": [
+    "calculator",
+    "navbar",
+    "twosum"
+  ],
+  "scripts": {
+    "calculator": "bun run --filter calculator dev",
+    "navbar": "bun run --filter navbar dev",
+    "twosum": "bun run --filter twosum test"
+  }
+}
